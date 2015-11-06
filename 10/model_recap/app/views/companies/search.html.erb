@@ -1,0 +1,11 @@
+<h1>
+
+<%= @companies.count%>
+
+</h1>
+
+
+
+<%@companies.each do |company|%>
+ <%= "Company created: #{company.name}"  %>
+ <% end%>

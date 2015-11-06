@@ -1,0 +1,15 @@
+
+<%= @users.each do |users| %>
+<p>
+Email:
+  <%= users.email%>
+  </p>
+  <br>
+  <p>
+  Name:
+  <%= users.name%>
+  </p>
+  <br>
+
+<%end%>
+  <p><%= link_to "create new user", new_user_path %></p>

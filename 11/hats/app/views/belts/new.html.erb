@@ -1,0 +1,24 @@
+<%= flash[:error] %>
+
+<%= form_for @belt do | f | %>
+
+<fieldset>
+  <div class="fields">
+    <%= f.label :length %>
+    <%= f.text_field :length %>
+    </div>
+
+    <div class= "fields">
+      <%= f.label :color %>
+      <%= f.text_field :color %>
+      </div>
+
+
+
+</fieldset>
+
+<%= f.submit %>
+
+
+
+<% end %>

@@ -1,0 +1,5 @@
+<%= image_tag @photo.filename %>
+<br>
+<%= @photo.caption%> 
+
+<%= link_to "edit", edit_photo_path(id: @photo.id) %>
